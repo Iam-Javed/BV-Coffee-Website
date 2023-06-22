@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+header h6{
+    font-size: small;
+    color: white;
+    font-style: italic;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(17, 124, 143);
+}
+header nav ul li {
+    font-size: large;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+h6 {
+    text-align: center;
+    font-size: 20px;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    overflow: hidden;
+}
+.home {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+.home-container{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.home{
+    flex: 100%;
+    margin: 34px;
+}
+.home img{
+    width: 100%;
+    align-items: center;
+
+}
+
+#aboutus {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+#doordelivery {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+#menu {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+#menu ul li {
+   margin-bottom: 0;
+   text-align: left;
+}
+#menu ul li {
+   margin-bottom: 0;
+   text-align: left;
+}
+#menu h3 {
+    margin-top: 0;
+}
+#contactus {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+#contactus form {
+    margin-bottom: 0;
+    text-align: left;
+ }
+#loginsignup {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+#loginsignup form {
+    margin-bottom: 0;
+    text-align: left;
+ }
+form 
+{
+    display: block;
+    margin-top: 10px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+footer {
+    background-color: #e8f806cf;
+    color: #fb0814;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/*side by side*/
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.product{
+    flex: 0 0 200px;
+    margin: 34px;
+}
+
+
+.Espresso{
+    margin-bottom: 30px;
+}
+.Espresso img{
+    width: 80px;
+    border-radius: 50%;
+}
+.Espresso blockquote{
+    margin: 10px 0;
+    font-style: italic;
+}
+.Espresso cite{
+    font-weight: bold;
+}
+
+.Cappuccino{
+    margin-bottom: 30px;
+}
+.Cappuccino img{
+    width: 80px;
+    border-radius: 50%;
+}
+.Cappuccino blockquote{
+    margin: 10px 0;
+    font-style: italic;
+}
+.Cappuccino cite{
+    font-weight: bold;
+}
+
+/*Door Delivery*/
+
+#doordelivery{
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/*side by side*/
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.product{
+    flex: 0 0 200px;
+    margin: 34px;
+}
+
+
+.Espresso{
+    margin-bottom: 30px;
+
+}
+.Espresso img{
+    width: 200px;
+}
+.Espresso h3{
+    margin-top: 10px;
+}
+.Espresso p{
+    margin-bottom: 5px;
+}
+
+
+.Cappuccino{
+    margin-bottom: 30px;
+}
+.Cappuccino img{
+    width: 200px;
+}
+.Cappuccino h3{
+    margin-top: 10px;
+}
+.Cappuccino p{
+    margin-bottom: 5px;
+}
+
+.mocha{
+    margin-bottom: 30px;
+
+}
+.mocha img{
+    width: 200px;
+}
+.mocha h3{
+    margin-top: 10px;
+}
+.mocha p{
+    margin-bottom: 5px;
+}
+
+
+.btn {
+    display:inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
