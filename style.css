@@ -16,9 +16,7 @@ header h6{
     font-style: italic;
 }
 header {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+    padding: 4px;
     background-color: rgb(17, 124, 143);
 }
 header nav ul li {
@@ -47,24 +45,10 @@ nav ul li a {
     font-weight: bold;
     overflow: hidden;
 }
-.home {
+#home {
     background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
-}
-.home-container{
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-}
-.home{
-    flex: 100%;
-    margin: 34px;
-}
-.home img{
-    width: 100%;
-    align-items: center;
-
 }
 
 #aboutus {
@@ -135,18 +119,7 @@ footer {
     text-align: center;
 }
 
-
 /*side by side*/
-
-.product-container{
-    display: flex;
-    flex-wrap: wrap;
-
-}
-.product{
-    flex: 0 0 200px;
-    margin: 34px;
-}
 
 
 .Espresso{
@@ -240,6 +213,7 @@ footer {
 .mocha p{
     margin-bottom: 5px;
 }
+
 
 
 .btn {
