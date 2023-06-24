@@ -8,19 +8,25 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 header {
-  background-color: #f2f2f2;
   padding: 20px;
   background-color: rgb(17, 124, 143);
+  color: #fdfafa;
 }
-
+header h1{
+    text-align: center;
+}
+header nav ul li a:hover {
+    color: yellow;
+}
 nav ul li {
   display: inline;
   margin-right: 20px;
+  
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: white;
   font-weight: bold;
 }
 
@@ -34,6 +40,7 @@ nav ul li a {
   max-width: 400px;
   margin: 0 auto;
 }
+
 
 #register h2 {
   text-align: center;
