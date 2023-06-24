@@ -9,20 +9,31 @@ header h1{
     text-align: center;
     font-size: 40px;
     color: white;
+    
+
 }
 header h6{
     font-size: small;
     color: white;
     font-style: italic;
+    
 }
 header {
-    padding: 4px;
-    background-color: rgb(17, 124, 143);
+    
+    padding: 10px;
+    background-color: rgb(12, 120, 143);
+
+}
+nav{
+    background-color: black;
+    padding: 15px;
 }
 header nav ul li {
     font-size: large;
 }
-
+header nav ul li a:hover{
+    color: yellow;
+}
 h1, h2, h3 {
     color: #333;
 }
@@ -45,17 +56,33 @@ nav ul li a {
     font-weight: bold;
     overflow: hidden;
 }
-#home {
+.home {
     background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
 }
+.home-container{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.home{
+    flex: 100%;
+    margin: 34px;
+}
+.home img{
+    width: 100%;
+    align-items: center;
+
+}
 
 #aboutus {
     background-color: #fff;
-    padding: 20px;
-    text-align: center;
+    padding: 40px;
     text-align: justify;
+}
+#aboutus h2{
+    text-align: center;
 }
 #doordelivery {
     background-color: #fff;
@@ -80,7 +107,7 @@ nav ul li a {
 }
 #contactus {
     background-color: #fff;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
 }
 #contactus form {
@@ -114,21 +141,41 @@ form input[type="submit"] {
     cursor: pointer;
 }
 footer {
-    background-color: #e8f806cf;
+    background-color: #333;
     color: #fb0814;
     padding: 20px;
     text-align: center;
 }
+footer b a{
+    padding: 10px;
+    color: white;
+}
+footer b a:hover{
+    color: yellow;
+}
+a{
+    text-decoration: none;
+}
+#customerreviews {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+
 
 /*side by side*/
+
 
 
 .Espresso{
     margin-bottom: 30px;
 }
 .Espresso img{
-    width: 80px;
+    
+    width: 5px;
     border-radius: 50%;
+    padding: 10px;
 }
 .Espresso blockquote{
     margin: 10px 0;
@@ -142,8 +189,9 @@ footer {
     margin-bottom: 30px;
 }
 .Cappuccino img{
-    width: 80px;
+    width: 5px;
     border-radius: 50%;
+    padding: 10px;
 }
 .Cappuccino blockquote{
     margin: 10px 0;
@@ -179,6 +227,7 @@ footer {
 }
 .Espresso img{
     width: 200px;
+    
 }
 .Espresso h3{
     margin-top: 10px;
@@ -216,12 +265,14 @@ footer {
 }
 
 
-
 .btn {
     display:inline-block;
-    background-color: #333;
+    background-color:#333;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 4px;
+}
+.btn:hover{
+    background-color: blue;
 }
