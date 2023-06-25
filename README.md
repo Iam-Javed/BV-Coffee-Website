@@ -42,9 +42,11 @@ cd coffee-website
 • Follow the prompts to complete the payment process and finalize your order.
 
 # Technologies Used
-HTML5
-CSS3
-JavaScript
+[HTML 5](#HTML5) 
+
+[CSS](#CSS3) 
+
+[JavaScript](#JavaScript) 
 
 # Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request. Contributions should align with the project's coding style and guidelines.
