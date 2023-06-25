@@ -22,7 +22,7 @@ Welcome to the Coffee Website! This website showcases a variety of coffee produc
 1. Clone the repository:
    ```shell
    git clone https://github.com/your-username/coffee-website.git
-Navigate to the project directory:
+1. Navigate to the project directory:
 cd coffee-website
 Open the index.html file in your preferred web browser.
 Usage
@@ -37,10 +37,10 @@ Technologies Used
 HTML5
 CSS3
 JavaScript
-Contributing
+# Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request. Contributions should align with the project's coding style and guidelines.
 
-License
+# License
 This project is licensed under the MIT License.
 
 Feel free to modify the content and sections according to your specific website features and requirements. Provide relevant information about installation, usage, technologies used, and how others can contribute to your project. Don't forget to include a license file (e.g., `LICENSE`) in your repository and update the license section in the README accordingly.
