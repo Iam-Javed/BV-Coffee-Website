@@ -1,4 +1,5 @@
-# Coffee Website
+# BeanVerse 
+<h3> A Coffee Website ☕</h3>
 
 Welcome to the Coffee Website! This website showcases a variety of coffee products, provides information about the coffee shop, and allows users to browse and purchase their favorite coffee blends.
 
@@ -21,19 +22,19 @@ Welcome to the Coffee Website! This website showcases a variety of coffee produc
 ## Installation
 1. Clone the repository:
    ```shell
-   git clone https://github.com/your-username/coffee-website.git
+   git clone https://github.com/Javed-basha/BeanVerse.git
 1. Navigate to the project directory:
 cd coffee-website
-Open the index.html file in your preferred web browser.
-Usage
-Browse through the different coffee products by scrolling through the image slider.
-Click on the product image or name to view more details.
-Use the navigation menu to access different sections of the website, such as the About Us page, Menu, FAQs, etc.
-Add your desired products to the cart by clicking on the "Add to Cart" button.
-Review your cart items and proceed to checkout when ready to make a purchase.
-Fill in the required information on the registration form to create an account (if applicable).
-Follow the prompts to complete the payment process and finalize your order.
-Technologies Used
+2. Open the index.html file in your preferred web browser.
+# Usage
+• Browse through the different coffee products by scrolling through the image slider.
+• Click on the product image or name to view more details.
+• Use the navigation menu to access different sections of the website, such as the About Us page, Menu, FAQs, etc.
+• Add your desired products to the cart by clicking on the "Add to Cart" button.
+• Review your cart items and proceed to checkout when ready to make a purchase.
+• Fill in the required information on the registration form to create an account (if applicable).
+• Follow the prompts to complete the payment process and finalize your order.
+# Technologies Used
 HTML5
 CSS3
 JavaScript
