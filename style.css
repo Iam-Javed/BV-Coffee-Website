@@ -1,6 +1,13 @@
 *{
     box-sizing: border-box;
 }
+header {
+
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(12, 120, 143);
+}
+
 body{
     margin: 0px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -9,115 +16,166 @@ header h1{
     text-align: center;
     font-size: 40px;
     color: white;
-    
-
 }
 header h6{
-    font-size: small;
+    font-size: medium;
     color: white;
     font-style: italic;
+    text-align: center;
     
-}
-header {
-    
-    padding: 10px;
-    background-color: rgb(12, 120, 143);
-
 }
 nav{
     background-color: black;
-    padding: 15px;
+    padding: 5px;
+    border-radius: 4px;
 }
-header nav ul li {
-    font-size: large;
-}
+
 header nav ul li a:hover{
+    
     color: yellow;
 }
-h1, h2, h3 {
-    color: #333;
-}
-h6 {
-    text-align: center;
-    font-size: 20px;
-}
+
 nav ul li {
     display: inline;
     margin-right: 20px;
-}
-ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
+
 nav ul li a {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
-    overflow: hidden;
+    overflow: hidden:
+      text-align:justif
 }
-.home {
+#home {
     background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
 }
-.home-container{
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
+#home h2{
+    background-color: rgb(20, 60, 68);
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
 }
-.home{
-    flex: 100%;
-    margin: 34px;
-}
-.home img{
+.image-slider{
     width: 100%;
-    align-items: center;
-
+    overflow: hidden;
+}
+.slider-container{
+    display:flex;
+    animation: slide 15s infinite;
+}
+.slider-container img{
+    flex-shrink: 0;
+    width: 40%;
+    padding: 10px;
+    animation: pause 2s infinite;
+    
+}
+@keyframes slide{
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 90% {
+        transform: translateX(-33.33%);
+    }
+    20%, 80% {
+        transform: translateX(-66.67%);
+    }
+    30%, 70% {
+        transform: translateX(-99.99%);
+    }
+}
+@keyframes pause {
+    0%, 10%, 90%, 100% {
+        opacity: 1;
+    }
+    20%, 80% {
+        opacity: 1;
+    }
 }
 
 #aboutus {
     background-color: #fff;
     padding: 40px;
     text-align: justify;
+    line-height: 200%;
 }
+
 #aboutus h2{
     text-align: center;
+    background-color: rgb(20, 60, 68) ;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
 }
-#doordelivery {
-    background-color: #fff;
-    padding: 20px;
+
+
+
+#menu{
     text-align: center;
+    padding: 20px;
+    
 }
-#menu {
+#menu h2{
+    background-color: rgb(20, 60, 68) ;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+}
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu-item {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
     background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
+    border-radius: 5px;
 }
-#menu ul li {
-   margin-bottom: 0;
-   text-align: left;
+.menu-item img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }
-#menu ul li {
-   margin-bottom: 0;
-   text-align: left;
-}
-#menu h3 {
+.menu-item h3{
     margin-top: 0;
 }
+.price {
+    font-weight: bold;
+}
+
+
 #contactus {
     background-color: #fff;
     padding: 40px;
     text-align: center;
 }
+
 #contactus form {
     margin-bottom: 0;
     text-align: left;
  }
+ #contactus h2{
+    background-color: rgb(20, 60, 68) ;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+}
 #loginsignup {
     background-color: #fff;
     padding: 40px;
     text-align: center;
+}
+#loginsignup h2{
+    background-color: rgb(20, 60, 68) ;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
 }
 #loginsignup form {
     margin-bottom: 0;
@@ -164,48 +222,18 @@ a{
 
 
 
-/*side by side*/
-
-
-
-.Espresso{
-    margin-bottom: 30px;
-}
-.Espresso img{
-    
-    width: 5px;
-    border-radius: 50%;
-    padding: 10px;
-}
-.Espresso blockquote{
-    margin: 10px 0;
-    font-style: italic;
-}
-.Espresso cite{
-    font-weight: bold;
-}
-
-.Cappuccino{
-    margin-bottom: 30px;
-}
-.Cappuccino img{
-    width: 5px;
-    border-radius: 50%;
-    padding: 10px;
-}
-.Cappuccino blockquote{
-    margin: 10px 0;
-    font-style: italic;
-}
-.Cappuccino cite{
-    font-weight: bold;
-}
 
 /*Door Delivery*/
 
 #doordelivery{
-    background-color: #f2f2f2;
+    text-align: center;
     padding: 20px;
+}
+#doordelivery h2{
+    background-color: rgb(20, 60, 68) ;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
 }
 
 /*side by side*/
@@ -220,49 +248,18 @@ a{
     margin: 34px;
 }
 
-
-.Espresso{
-    margin-bottom: 30px;
-
-}
 .Espresso img{
     width: 200px;
-    
-}
-.Espresso h3{
-    margin-top: 10px;
-}
-.Espresso p{
-    margin-bottom: 5px;
 }
 
-
-.Cappuccino{
-    margin-bottom: 30px;
-}
 .Cappuccino img{
     width: 200px;
 }
-.Cappuccino h3{
-    margin-top: 10px;
-}
-.Cappuccino p{
-    margin-bottom: 5px;
-}
 
-.mocha{
-    margin-bottom: 30px;
-
-}
 .mocha img{
     width: 200px;
 }
-.mocha h3{
-    margin-top: 10px;
-}
-.mocha p{
-    margin-bottom: 5px;
-}
+
 
 
 .btn {
@@ -274,5 +271,17 @@ a{
     border-radius: 4px;
 }
 .btn:hover{
-    background-color: blue;
+    background-color: dodgerblue;
 }
+
+.primary-button{
+    display:inline-block;
+    background-color: green;
+    color: #fff;
+    padding: 2px 4px;
+    text-decoration: none;
+    border-radius: 4px; 
+}
+.primary-button:hover{
+    background-color: rgb(9, 172, 25) !important;
+        }
