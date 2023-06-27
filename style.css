@@ -1,60 +1,21 @@
 *{
     box-sizing: border-box;
-}
-header {
-
-    align-items: center;
-    padding: 10px;
-    background-color: rgb(12, 120, 143);
+    margin: 0;
+    padding: 0;
 }
 
 body{
     margin: 0px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-header h1{
-    text-align: center;
-    font-size: 40px;
-    color: white;
-}
-header h6{
-    font-size: medium;
-    color: white;
-    font-style: italic;
-    text-align: center;
-    
-}
-nav{
-    background-color: black;
-    padding: 5px;
-    border-radius: 4px;
-}
 
-header nav ul li a:hover{
-    
-    color: yellow;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-    list-style-type: none;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-    overflow: hidden:
-      text-align:justif
-}
 #home {
     background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
 }
 #home h2{
-    background-color: rgb(20, 60, 68);
+    background-color: #B8860B;
     padding: 10px;
     color: white;
     border-radius: 4px;
@@ -106,7 +67,7 @@ nav ul li a {
 
 #aboutus h2{
     text-align: center;
-    background-color: rgb(20, 60, 68) ;
+    background-color: #B8860B ;
     padding: 10px;
     color: white;
     border-radius: 4px;
@@ -114,35 +75,36 @@ nav ul li a {
 
 
 
-#menu{
+#menub{
     text-align: center;
     padding: 20px;
     
 }
-#menu h2{
-    background-color: rgb(20, 60, 68) ;
+#menub h2{
+    background-color: #B8860B ;
     padding: 10px;
     color: white;
     border-radius: 4px;
 }
-.menu-items {
+.menub-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.menu-item {
+.menub-item {
     width: 300px;
     padding: 20px;
     margin: 20px;
     background-color: #f2f2f2;
     border-radius: 5px;
 }
-.menu-item img{
+.menub-item img{
     width: 100%;
     height: auto;
     margin-bottom: 10px;
+    border-radius: 4px;
 }
-.menu-item h3{
+.menub-item h3{
     margin-top: 0;
 }
 .price {
@@ -161,7 +123,7 @@ nav ul li a {
     text-align: left;
  }
  #contactus h2{
-    background-color: rgb(20, 60, 68) ;
+    background-color: #B8860B;
     padding: 10px;
     color: white;
     border-radius: 4px;
@@ -172,7 +134,7 @@ nav ul li a {
     text-align: center;
 }
 #loginsignup h2{
-    background-color: rgb(20, 60, 68) ;
+    background-color: #B8860B ;
     padding: 10px;
     color: white;
     border-radius: 4px;
@@ -219,6 +181,11 @@ a{
     padding: 20px;
     text-align: center;
 }
+#customerreviews img{
+    border-radius: 50%;
+    padding: 20px;
+    
+}
 
 
 
@@ -230,10 +197,16 @@ a{
     padding: 20px;
 }
 #doordelivery h2{
-    background-color: rgb(20, 60, 68) ;
+    background-color: #B8860B ;
     padding: 10px;
     color: white;
     border-radius: 4px;
+}
+#doordelivery img{
+    border-radius: 4px;
+}
+#doordelivery{
+    font-style: oblique;
 }
 
 /*side by side*/
@@ -250,6 +223,7 @@ a{
 
 .Espresso img{
     width: 200px;
+    border-radius: 10px;
 }
 
 .Cappuccino img{
@@ -284,4 +258,49 @@ a{
 }
 .primary-button:hover{
     background-color: rgb(9, 172, 25) !important;
-        }
+}
+.nav-bar{
+    background-color: #362719;
+    color: #fff;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.menu-right{
+    text-align: right;
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+}
+ul li a{
+    color: #fff;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: yellow;
+}
+.nav-bar h1{
+    float: left;
+    height: 45px;
+    margin-right: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.menu-right span{
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+@media only screen and (max-width:700px) {
+    .menu-right span{
+        display: block;
+    }
+    ul li{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+}
