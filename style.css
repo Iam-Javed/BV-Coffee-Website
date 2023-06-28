@@ -11,7 +11,7 @@ body{
 
 #home {
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 #home h2{
@@ -30,11 +30,12 @@ body{
 }
 .slider-container img{
     flex-shrink: 0;
-    width: 40%;
+    width: 50%;
     padding: 10px;
     animation: pause 2s infinite;
     
 }
+
 @keyframes slide{
     0%, 100% {
         transform: translateX(0);
@@ -205,7 +206,7 @@ a{
 #doordelivery img{
     border-radius: 4px;
 }
-#doordelivery{
+#doordelivery p{
     font-style: oblique;
 }
 
@@ -256,6 +257,14 @@ a{
     text-decoration: none;
     border-radius: 4px; 
 }
+.button{
+    display:inline-block;
+    background-color: green;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 4px; 
+}
 .primary-button:hover{
     background-color: rgb(9, 172, 25) !important;
 }
@@ -276,6 +285,7 @@ ul li{
 ul li a{
     color: #fff;
     font-weight: bold;
+    font-size: large;
 }
 ul li a:hover{
     color: yellow;
