@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width, intial-scale=1.0">
+        <title>Payment Form</title>
+        <link rel="stylesheet" href="style2.css">
+        
+    <header>
+        <h1>Buy your Coffee</h1>
+    </header>
+    <body>
+        <h2>User Information</h2>
+        <form action="#"method="get">
+        <p>Name: *</p>
+        <input placeholder="Enter your Name" type="text" name="name" id="name" required>
+        <br><br>
+        <p>
+            <fieldset>
+                <legend>Gender: * </legend>
+        <input type="radio" name="gender" id="gender"required>Male<input type="radio" name="gender" id="gender"required>Female<input type="radio" name="gender" id="gender"required>Others
+            </fieldset>
+        </p>
+        <br>
+        <p>Email: *</p>
+        <input placeholder="Enter your Email" type="email" name="email" id="email">
+        <br><br>
+        <p>Mobile Number: *</p>
+        <input placeholder="Enter your Mobile Number" type="number" name="mobilenumber" id="number">
+        <br><br>
+        <p>Address:</p>
+        <textarea  placeholder="Enter your Address" name="address" id="address" cols="60" rows="10"></textarea>
+        <br><br>
+        <hr>
+        <h2>Payment Information</h2>
+        <br>
+        <p>Card Type: *</p>
+        <select name="card_type" id="card_type"required><option value="">--Select Card Type--</option><option value="rupay">Rupay</option><option value="visa">Visa</option><option value="mastercard">MasterCard</option></select>
+        <br>
+        <p>Card Number: *</p>
+        <input  placeholder="Enter Card Number" type="number" name="number" id="number"required>
+        <br><br>
+        <p>Expiration Date: *</p>
+        <input type="date" name="date" id="date"required>
+        <br><br>
+        <p>Cvv: *</p>
+        <input placeholder="Enter Pin Number" type="password" name="password" id="password"required>
+        <br><br>
+        <input type="submit" value="Pay Now"class="btn">
+        <br><br>
+        <input type="reset" value="Reset"class="btn-primary">
+
+    </body>
+</html>
