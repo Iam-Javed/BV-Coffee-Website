@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header,h2 {
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(12, 120, 143);
+    color: white;
+
+}
+h2{
+    border-radius: 4px;
+}
+form{
+    background-color: #f2f2f2;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    
+}
+body form{
+    padding: 40px;  
+}
+input[type="text"],input[type="email"],input[type="number"],input[type="password"],input[type="date"]{
+    padding: 10px 20px;
+    width: 100%;
+}
+textarea{
+    padding: 10px 20px;
+    width: 100%;
+}
+select{
+    padding: 10px 20px;
+    width: 100%;
+}
+fieldset{
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="reset"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+.btn {
+    display:inline-block;
+    background-color:#333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.btn-primary {
+    display:inline-block;
+    background-color:#333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: green;
+}
+.btn-primary:hover{
+    background-color: rgba(175, 15, 39, 0.808);
+}
