@@ -1,0 +1,15 @@
+#faq {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  #faq h2{
+    text-align: center;
+  }
+  body{
+    background-color: aliceblue;
+  }
