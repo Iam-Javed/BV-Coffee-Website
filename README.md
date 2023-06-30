@@ -1,7 +1,7 @@
 # BeanVerse<sup>®</sup>
 <h3> A Coffee Website ☕</h3>
 
-Welcome to the BeanVerse<sup>®</sup>! This website showcases a variety of coffee products, provides information about the coffee shop, and allows users to browse and purchase their favorite coffee blends.
+Welcome to the BeanVerse<sup>®</sup> ! This website showcases a variety of coffee products, provides information about the coffee shop, and allows users to browse and purchase their favorite coffee blends.
 
 ## Table of Contents
 - [Features](#features)
