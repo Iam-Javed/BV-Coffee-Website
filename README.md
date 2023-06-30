@@ -24,7 +24,7 @@ Welcome to the BeanVerse<sup>®</sup> ! This website showcases a variety of coff
    ```shell
    git clone https://github.com/Javed-basha/BeanVerse.git
 1. Navigate to the project directory:
-cd coffee-website
+cd BeanVerse-Website
 2. Open the index.html file in your preferred web browser.
 # Usage
 • Browse through the different coffee products by scrolling through the image slider.
