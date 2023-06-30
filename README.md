@@ -55,4 +55,3 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 This project is licensed under the MIT License.
 
 Feel free to modify the content and sections according to your specific website features and requirements. Provide relevant information about installation, usage, technologies used, and how others can contribute to your project.
-Don't forget to include a license file (e.g., `LICENSE`) in your repository and update the license section in the README accordingly.
