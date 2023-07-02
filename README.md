@@ -3,6 +3,8 @@
 
 Welcome to the BeanVerse<sup>®</sup> ! This website showcases a variety of coffee products, provides information about the coffee shop, and allows users to browse and purchase their favorite coffee blends.
 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Javed-basha/BeanVerse-Website/blob/main/LICENSE) 
+
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
@@ -50,6 +52,7 @@ cd BeanVerse-Website
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request. Contributions should align with the project's coding style and guidelines.
 
 # License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License.[MIT License](https://github.com/Javed-basha/BeanVerse-Website/blob/main/LICENSE) 
 
 Feel free to modify the content and sections according to your specific website features and requirements. Provide relevant information about installation, usage, technologies used, and how others can contribute to your project.
+
