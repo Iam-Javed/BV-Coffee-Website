@@ -1,7 +1,7 @@
 # JavaSparsh<sup>®</sup>
 <h3> A Coffee Website ☕</h3>
 
-Welcome to the BeanVerse<sup>®</sup> ! This website showcases a variety of coffee products, provides information about the coffee shop, and allows users to browse and purchase their favorite coffee blends.
+Welcome to the JavaSparsh<sup>®</sup> ! This website showcases a variety of coffee products, provides information about the coffee shop, and allows users to browse and purchase their favorite coffee blends.
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Javed-basha/BeanVerse-Website/blob/main/LICENSE) 
 
