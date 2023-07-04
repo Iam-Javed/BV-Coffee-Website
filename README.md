@@ -5,6 +5,8 @@ Welcome to the BeanVerse<sup>®</sup> ! This website showcases a variety of coff
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Javed-basha/BeanVerse-Website/blob/main/LICENSE) 
 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=Javed-basha/BeanVerse-Website&label=Profile%20views&color=0e75b6&style=flat" alt="BeanVerse-Website" /> </p>
+
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
