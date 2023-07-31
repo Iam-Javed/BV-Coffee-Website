@@ -1,4 +1,4 @@
-![alt text](https://github.com/Mr-J-2K01/BV-Coffee-Website/blob/main/logo.png?raw=true)
+![alt text](https://github.com/Mr-J-2K01/BV-Coffee-Website/blob/main/logo.png) 
 # BeanVerse<sup>®</sup>
 <h3> A Coffee Website ☕</h3>
 
