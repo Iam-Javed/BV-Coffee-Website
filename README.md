@@ -1,3 +1,4 @@
+logo.jpg
 # BeanVerse<sup>®</sup>
 <h3> A Coffee Website ☕</h3>
 
