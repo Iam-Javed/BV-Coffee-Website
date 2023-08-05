@@ -1,8 +1,10 @@
+# BeanVerse<sup>®</sup>
+
 <img src="https://github.com/Iam-Javed/BV-Coffee-Website/assets/106265348/3f2e5c78-04de-4edf-8942-b2319a915d64" alt="">
 
 
 
-# BeanVerse<sup>®</sup>
+
 <h3> A Coffee Website ☕</h3>
 
 Welcome to the BeanVerse<sup>®</sup> ! This website showcases a variety of coffee products, provides information about the coffee shop, and allows users to browse and purchase their favorite coffee blends.
