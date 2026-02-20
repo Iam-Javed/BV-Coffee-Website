@@ -9,8 +9,6 @@ on:
       - Beanverse_cafe_backup
   
   workflow_dispatch:
-  schedule:
-    - cron: '10 10 * * 6-7' # Runs at weekends at 10:10 AM
 
 jobs:
   build:
