@@ -40,7 +40,7 @@ jobs:
         name: bv-cafe-image
 
     - name: Load image
-      run: docker load -i bv-cafe.tar.gz
+      run: docker load -i bv-cafe.tar
 
     - name: Login to Docker Hub
       run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
