@@ -1,0 +1,36 @@
+# workflow for BeanVerse Cafe website
+
+name: BeanVerse Cafe Website Workflow
+
+on:
+  push:
+    branches:
+      - Beanverse_cafe_backup
+  pull_request:
+    branches:
+      - Beanverse_cafe_backup
+
+workflow_dispatch:
+schedules:
+  - cron: '10 10 * * 6-7' # runs daily in morning at 10:10 AM on weekends (Saturday and Sunday)
+
+jobs:
+  build:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Code Checkout
+      uses: actions/checkout@v4
+
+    - name: Build Docker image
+      run: |
+        docker build -t beanverse-cafe:latest .
+    
+    - name: Docker account login
+      run: echo ${{ secrets.DOCKER_PASSWORD }} | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
+      if: success()
+      run: echo "Docker login successful"
+
+    - name: Push docker image to docker hub
+      run: |
+        docker tag beanverse-cafe:latest ${{ secrets.DOCKER_USERNAME }}/beanverse-cafe:latest
+        docker push ${{ secrets.DOCKER_USERNAME }}/beanverse-cafe:latest
